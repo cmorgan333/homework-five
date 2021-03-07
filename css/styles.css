@@ -274,7 +274,6 @@ footer .socials .twitter {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   display: flex;
   margin: 0 auto;
-  background-color: teal;
 }
 .booking-form .checkin-fields .check-in .text-one {
   width: 150px;
@@ -299,7 +298,6 @@ footer .socials .twitter {
   border: solid #79addc 1px;
   margin-bottom: 15px;
   text-indent: 10px;
-  background-color: purple;
 }
 .booking-form .checkin-fields .check-in #field-five input {
   text-indent: 10px;
@@ -601,4 +599,74 @@ nav .links .contact {
   font-size: 15px;
   color: #ffffff;
   padding-top: 10px;
+}
+
+.black {
+  max-width: 980px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: black solid 2px;
+  margin-top: 20px;
+}
+.black .logo {
+  width: 92px;
+  height: 42px;
+  background-image: url(../assets/icons/logo-black.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.black .black-links {
+  width: 525px;
+  height: 42px;
+  display: flex;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+.black a {
+  text-decoration: none;
+  color: black;
+  align-self: center;
+  margin: auto;
+  border-right: solid 1px #79addc;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: black;
+}
+.black .contact {
+  border-right: none;
+}
+
+.about-content {
+  width: 980px;
+  height: 740px;
+  background-color: teal;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 70px;
+}
+.about-content .about-text {
+  height: 210px;
+  width: 980px;
+  background-color: purple;
+}
+.about-content h1 {
+  width: 150px;
+  height: 40px;
+  font-family: ProximaNova;
+  font-size: 40px;
+  border-bottom: solid black 2px;
+}
+.about-content p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 1.6px;
+}
+.about-content .client-text {
+  height: 460px;
+  width: 980px;
+  background-color: green;
 }

@@ -1,0 +1,36 @@
+.about-content {
+  width: 980px;
+  height: 740px;
+  background-color: teal;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 70px;
+
+  .about-text {
+    height: 210px;
+    width: 980px;
+    background-color: purple;
+  }
+
+  h1 {
+    width: 150px;
+    height: 40px;
+    font-family: ProximaNova;
+    font-size: 40px;
+    border-bottom: solid $black 2px;
+  }
+
+  p {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 1.6px;
+  }
+
+  .client-text {
+    height: 460px;
+    width: 980px;
+    background-color: green;
+  }
+}
