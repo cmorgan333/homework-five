@@ -1,13 +1,13 @@
 .about-content {
   max-width: 980px;
-  height: 740px;
+  min-height: 740px;
   margin: 0 auto;
   margin-top: 60px;
   margin-bottom: 70px;
 
   .about-text {
-    height: 210px;
-    width: 980px;
+    min-height: 210px;
+    max-width: 980px;
   }
 
   h1 {
@@ -29,8 +29,8 @@
   //   =====CLIENT QUOTES SECTION=========//
 
   .client-content {
-    height: 460px;
-    width: 676px;
+    min-height: 460px;
+    max-width: 676px;
     margin-top: 50px;
 
     h3 {
