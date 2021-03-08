@@ -691,7 +691,7 @@ nav .links .contact {
   background-position: center;
 }
 .about-content .client-content .client-one .client-quote {
-  width: 416px;
+  max-width: 416px;
   min-height: 150px;
   padding-left: 20px;
   position: relative;
@@ -727,7 +727,7 @@ nav .links .contact {
   background-position: center;
 }
 .about-content .client-content .client-two .client-quote {
-  width: 416px;
+  max-width: 416px;
   min-height: 150px;
   padding-left: 20px;
   position: relative;
@@ -745,4 +745,22 @@ nav .links .contact {
   bottom: 0;
   font-family: ProximaNova Condensed;
   color: #79addc;
+}
+
+@media only screen and (max-width: 600px) {
+  .about-content {
+    padding: 10px;
+  }
+
+  .client-content {
+    padding: 10px;
+  }
+  .client-content .client-quote {
+    width: 200px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .about-content .client-content {
+    display: block;
+  }
 }
